@@ -17,8 +17,6 @@
 !**/.yarn/versions
 !**/.env.sample
 
-dist/
-
 # Xcode
 build/
 *.pbxuser
@@ -50,12 +48,6 @@ local.properties
 buck-out/
 \.buckd/
 *.keystore
-
-index.d.ts
-index.js
-index.js.flow
-
-
 
 # XDE
 .expo/
