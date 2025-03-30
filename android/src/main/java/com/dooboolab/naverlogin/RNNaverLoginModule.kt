@@ -46,7 +46,7 @@ class RNNaverLoginModule(reactContext: ReactApplicationContext) : ReactContextBa
     }
 
     @ReactMethod
-    fun login(promise: Promise) =
+    fun login(promise: Promise): Unit = 
         UiThreadUtil.runOnUiThread {
             loginPromise = promise
             if (currentActivity == null) {
